@@ -1,0 +1,9 @@
+############################
+# 配置 nacos 的 dataid后缀
+# 配置在application配置文件时不生效
+############################
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
